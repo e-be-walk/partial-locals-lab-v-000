@@ -7,3 +7,4 @@ Classroom Info
 Here are the students in the class:
 <% @classroom.students.each to |student| %>
 <%= render partial: 'students/student', locals: {student: @student} %>
+<% end %>
